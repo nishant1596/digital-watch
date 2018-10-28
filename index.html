@@ -13,7 +13,7 @@
       #section1{
          font-family: 'Orbitron';
          sans-serif;
-         font-size:50px;
+         font-size:35px;
        }
        #section2,#section3{
           font-family: 'Orbitron';
