@@ -19,6 +19,12 @@
           font-family: 'Orbitron';
           sans-serif;
         }
+        .card,.card-img{
+          height:300px;
+        }
+        #section4,#section5{
+          display:none;
+        }
 }
 @media only screen and (min-width: 750px) {
     #section1{
@@ -26,7 +32,7 @@
        sans-serif;
        font-size:100px;
      }
-     #section2,#section3,#section4{
+     #section2,#section3,#section4,#section5{
         font-family: 'Orbitron';
         sans-serif;
         font-size:30px;
@@ -49,11 +55,23 @@
               <p class="card-text text-center" id="section1"></p>
               <span class="card-text text-left pr-5" id="section2" style="display:inline"></span>
               <span class="card-text text-right" style="float:right" id="section3"></span>
-              <div class="card-text text-center" id="section4"></div>
-            </div>
+
+              <div class="row">
+
+                <div class="col-lg-2 col-sm-2"></div>
+                <div class="col-lg-4 col-sm-4 text-center" id="section4">
+                  MilliSeconds &nbsp;&nbsp;&nbsp;&nbsp;  ::
+                </div>
+                <div class="col-lg-3 col-sm-4 text-left" id="section5">
+
+                </div>
+                <div class="col-lg-3 col-sm-2"></div>
           </div>
           </div>
-          <div class="col-lg-1"></div>
+
+
+        </div>
+        </div>
         </div>
         </div>
 

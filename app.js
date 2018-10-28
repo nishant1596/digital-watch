@@ -1,7 +1,7 @@
 const timesec=document.querySelector('#section1');
 const datesec=document.querySelector('#section2');
 const daysec=document.querySelector('#section3');
-const milsec=document.querySelector('#section4');
+const milsec=document.querySelector('#section5');
 
 function showTime(){
   const d=new Date();
